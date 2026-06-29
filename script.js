@@ -33,7 +33,6 @@ const observer = new IntersectionObserver(
   }
 );
 
-reveals.forEach((node, index) => {
-  node.style.transitionDelay = `${Math.min(index * 70, 260)}ms`;
+reveals.forEach((node) => {
   observer.observe(node);
 });
