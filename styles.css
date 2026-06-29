@@ -170,7 +170,8 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.95rem 0;
+  padding: 0.6rem 0;
+  min-height: 70px;
 }
 
 .logo {
@@ -178,7 +179,18 @@ a {
   font-size: 1.6rem;
   font-weight: 700;
   text-decoration: none;
-  color: var(--cream);
+  /* color: var(--cream); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.logo-img {
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 .site-nav {
